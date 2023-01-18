@@ -316,12 +316,19 @@ padding-block-start: 8%;
   color: rgb(0, 0, 0);
   font-family:Poppins-Light;
   background-color: rgb(255, 255, 255);
-  padding: 1% 2.1%;
+  padding: 13px 27.297px;
+  border-width: 2px;
 display: block;
 
 }
+#featuresection
+{
+  margin: 4% auto;
+}
+#bestsellersection
+{  margin: 4% auto;
 
-
+}
   @media only screen and (min-width:320px) and (max-width:767px) {
     
     .col-3 {
@@ -497,8 +504,9 @@ width: 50%;
 
 object-fit: cover;
 width: 100%;
-height: 331.234px;
+height: 346.297px;
   display: block;
+  max-height: auto;
 
 }
 
