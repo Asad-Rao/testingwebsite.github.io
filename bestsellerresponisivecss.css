@@ -1,0 +1,665 @@
+@import url("fontcssyoutube.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body
+{
+
+    margin: 0;
+    padding: 0;
+    max-width: auto;
+    margin: 0 auto;
+
+
+}
+
+/*****************************NAV BAR CSS****************/
+.logo
+{
+  scale: 100% 96%
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+.iconsimages {
+scale: 75% 75%;}
+.hamburger-menu
+{
+  display: none;
+}
+.icons{
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  align-items: center;
+
+
+}
+.nav-items {
+  display: flex;
+  list-style: none;
+
+
+}
+
+.nav-items li {
+  margin: 0 10px;
+  font-size: 13px;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-items li a {
+text-decoration: none;
+color: black;    
+
+}
+.container
+{
+  display: none;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+
+@media screen and (max-width:767px) {
+nav
+{
+position:relative;
+display: flex;
+justify-content: center;
+height: auto;
+}
+.logo{
+  margin: 0 auto;
+ 
+}
+ .icons
+  {
+position: absolute;
+right: 0;
+top: 35px;
+margin: 6px 0;
+  }
+  .nav-items
+  {
+    display: none;
+    text-align: left;
+    float: left;
+    width: 100%;
+    line-height: 2;
+  }
+  .container
+  {
+    display: block;
+position: absolute;
+top: 35px;
+left: 0;
+
+  }
+  .show
+  {
+    display: block;
+    transition: 0.8s;
+  }
+
+
+}
+/*********************************************************/
+
+.topbackgroundimage
+{
+  width: 1300px;
+  margin: auto;
+  
+}
+#mosttopsection
+{
+  background-image: url("images/topbackground.png"),url("images/darktopsection.png");
+  background-size: 2000rem 2000rem;
+  background-repeat: no-repeat no-repeat;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-size: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Poppins-SemiBold;
+  color: black;
+  letter-spacing: 1.2px;
+  width: 100%;
+}
+/**********************************AFTER NAVIGATION******************/
+.rowtopsection {
+  display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: space-between;
+flex-wrap: wrap;
+margin: 2% auto;
+}
+
+.column1  {
+  font-family: Poppins-Light;
+  width:50%;
+  margin: auto 0;
+}
+
+.shopoutlets {
+  font-size: 13px;
+  /* mag */
+  font-family: Poppins-Light;
+  margin:3.5% 0;
+
+}
+
+.quality {
+  font-size: 27px;
+font-weight: 100;
+  font-family: Poppins-Light;
+}
+
+
+
+.cheapproducts {
+  font-size: 45px ;
+  font-family: Poppins-ExtraBold;
+  line-height: 0.98;
+}
+
+.cheapandeasy {
+  font-size: 13px;;
+
+}
+
+.textspacing {
+margin: 3.5% 0;
+}
+
+.collection {
+  font-size: 12px;
+  font-family: "Poppins-Light";
+  padding: 2.5% 4%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+
+
+  border: 1px solid rgb(255, 0, 0);
+
+}
+
+
+/********************************************************/
+
+/**********************Image Stacking*******************/
+.column2 {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.child {
+width: 100%;
+
+
+}
+@media only screen and  (max-width: 767px) {
+  .column1{
+
+    width: 100%;
+text-align: center;
+
+  }
+  .column2{
+
+    width: 100%;
+
+
+  }
+
+
+}
+
+
+/*******************END OF IMAGE STACKING*****************/
+
+/*************** RESPONSIVE FEATURE PRODUCT******************/
+.bestsellerrow {
+    display: flex;
+    height: auto;
+
+    flex-direction: row;
+    border: 1px solid black;
+    /* justify-content: space-between; */
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 2.66%;
+    row-gap: 2rem;  
+    margin: 2% auto;
+    max-width: 1300px;
+
+  }
+
+  .col-3 {
+
+    width: 23%;
+    border: 1px solid black;
+
+
+
+
+  }
+
+  .imagesbestseller {
+width: 100%;
+    object-fit: cover;
+    height: 182px;
+  }
+
+  .seller-text {
+
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .sales {
+    font-size: 9.5px;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.details
+{
+text-align: left;
+padding-block-start: 8%;
+}
+.stars
+{width: 22%;
+}
+  .price {
+    font-size: 14px;
+    font-family: Poppins-SemiBold;
+
+  }
+
+  /* 
+  Smallest modile Device consider be 200px
+  Largest mobile device consider be 767px */
+  /* 600-800px Tablet */
+
+.READMORE
+{
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+  font-family:Poppins-Light;
+  background-color: rgb(255, 255, 255);
+  padding: 1% 2.1%;
+display: block;
+
+}
+
+
+  @media only screen and (min-width:320px) and (max-width:767px) {
+    
+    .col-3 {
+
+      width:100%;
+      border: 1px solid black;
+      /* height: 275px; */
+      text-align: center;
+    }
+    .imagesbestseller {
+      width: 100%;
+          object-fit: cover;
+ height: auto;
+        }
+      
+    .details {
+      width: 100%;
+      text-align: center;
+    }
+    .stars
+    {
+      width: 14%;
+    }
+
+    .seller-text {
+      white-space: wrap;
+
+      /* font-size: 2vh; */
+      font-family: 'Poppins', sans-serif;
+
+    }
+
+    .sales {
+      /* font-size: 2vh; */
+      display: inline-block;
+      font-family: 'Poppins', sans-serif;
+    }
+  }
+  /******************************************************/
+
+.rowfeature {
+  display: flex;
+  flex-direction: row;
+  /* width of whole row is 1300px */
+  max-width: 1300px;
+  width: 100%;
+  margin: 2% auto;
+  border: 1px solid black;
+
+flex-wrap: wrap;  
+gap: 4.505%;
+}
+
+.col-4 {
+  width: 30.33%;
+  border: 1px solid black;
+
+  position: relative;
+
+}
+
+.text-button {
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  bottom: 15px;
+  /* left: 83.4765;
+  right: 83.4765px; */
+}
+.featureimage {
+  width: 100%;
+
+  display: block;
+}
+.card-text {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-family: Poppins-SemiBold;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+
+.buynow {
+  font-size: 13px;
+  color: white;
+  font-family:Poppins-SemiBold;
+  background-color: black;
+  padding: 1.7% 9.5%;
+  margin-block-start: 2%;
+  outline-style: none;
+  border-width: 1px;
+
+}
+
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+
+  .col-4 {
+    width: 100%;
+    border: 1px solid black;
+    margin-block: 20px;
+  }
+  .card-text {
+      text-align: center;
+      text-transform: uppercase;
+      color: rgb(255, 255, 255);
+      font-family: Poppins-SemiBold;
+      /* font-size: 2vh; */
+  }
+  .buynow {
+      /* font-size: 2vh; */
+      color: white;
+      font-family:Poppins-SemiBold;
+      background-color: black;
+      padding: 3% 7%;
+      margin-block-start: 2%;
+
+  }
+  .text-button {
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 15px;
+    /* left: 83.4765;
+    right: 83.4765px; */
+  }
+  .featureimage {
+scale: 1 1;
+    display: block;
+  }
+
+}
+/******************************************************/
+
+#aboutoutletssection
+{
+  background-image: url("images/AboutOutletsBackground.png");
+  background-size: 2000rem 2000rem;
+  background-repeat: no-repeat no-repeat;
+}
+.aboutoutletsrow
+{
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  margin: 2% auto;
+  border: 1px solid black;
+flex-wrap: wrap;  
+margin: 2% auto;
+
+}
+
+.col-6
+{
+width: 50%;
+min-height: 447.906px;
+
+}
+.outletsimage
+{
+
+  width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  display: block;
+
+}
+
+.aboutoutletswelcome {
+font-size: 15px;
+font-family: Poppins-SemiBold;
+
+}
+.col-text
+{
+  font-size: 15px;
+  font-family: Poppins-Light;
+  text-align: left;
+
+}
+.aboutoutletstext {
+font-size: 12px;
+}
+
+
+.VIEWMORE
+{
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+  font-family:Poppins-Light;
+  background-color: rgb(255, 255, 255);
+  padding: 1% 2.1%;
+display: block;
+margin: 0 auto;
+}
+
+@media screen and (max-width:767px) 
+{
+  .col-6
+{
+
+  width: 100%;
+  text-align: center;
+}
+.outletsimage
+{
+  max-width: 100%;
+max-height: 100%;
+}
+.col-text
+{
+  padding-block: 0.5%;
+  width: 100%;
+}
+}
+/****************************************************/
+
+.footer-grid
+{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: center;
+column-gap: 8%;
+color: white;
+font-family: 'Poppins', sans-serif;
+flex-wrap: wrap;
+padding-block-start: 3%;
+padding-block-end: 3%;
+}
+
+/*********************************************************/
+.footerlogo{
+scale: 100% 96%
+}
+/* .footercolum1{width: 20%}
+
+.footercolum2{width: 25%;}
+
+.footercolum3{width: 10%;}
+
+.footercolum4{width: 10%} */
+
+input {
+  size: "25";
+
+}
+.subscribe {
+  font-size: 15px;
+  font-family: "Poppins-SemiBold";
+}
+.main-ul
+{
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(255, 255, 255);
+  line-height:2.7;
+}
+
+.ulfooter
+{
+  list-style: none;
+  line-height: 1.7;
+}
+.anchor-footer {
+  text-decoration-line: none;
+
+  color: rgb(199, 199, 199);
+}
+
+.footermainul {
+  font-size: 17px;
+
+
+}
+
+::placeholder {
+  font-size: 13px;
+  font-family: "Poppins-Light";
+  margin-inline-start: 20px;
+}
+input[type=text] {
+
+  padding: 11px 0px;
+
+  box-sizing: border-box;
+}
+form
+{
+  display: inline-flex;
+}
+.lifooter
+{
+  font-family: "Poppins-Light";
+}
+.bottom
+{
+  font-family: "Poppins-Light";
+  font-size: 15px;
+  color: rgb(199, 199, 199);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 44.6%;
+  align-items: center;
+ padding-block: 1%;
+}
+
+/********************************************************/
+#footersection
+{
+  background-image: url("images/footerbackground.png");
+  background-size: 2000rem 2000rem;
+  background-repeat: no-repeat no-repeat;
+}
+@media screen and (max-width:767px) 
+{
+
+  .footercolumn
+  {
+    width:100% ;
+    text-align: center;
+    margin: 2% 0;
+  }
+  .copyright,copyimage
+  {
+    width: 100%;
+    text-align: center;
+  }
+  .bottom
+  {
+justify-content: center;
+
+  }
+}
