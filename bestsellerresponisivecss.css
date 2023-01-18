@@ -570,27 +570,24 @@ max-height: 100%;
 {
   display: flex;
   flex-direction: row;
-
-  justify-content: center;
-column-gap: 8%;
+  justify-content: space-around;
 color: white;
 font-family: 'Poppins', sans-serif;
 flex-wrap: wrap;
-padding-block-start: 3%;
-padding-block-end: 3%;
+
 }
 
 /*********************************************************/
 .footerlogo{
 scale: 100% 96%
 }
-/* .footercolum1{width: 20%}
+.footercolum1{width: fit-content}
 
-.footercolum2{width: 25%;}
+.footercolum2{width:fit-content;}
 
-.footercolum3{width: 10%;}
+.footercolum3{width: fit-content;}
 
-.footercolum4{width: 10%} */
+.footercolum4{width: fit-content}
 
 input {
   size: "25";
