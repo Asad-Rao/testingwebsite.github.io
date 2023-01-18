@@ -18,7 +18,8 @@ body
 .section1top
 {
   max-width:1300px ;
-  margin:auto 150px;
+  min-height: 100px;
+  margin:auto 10%;
 }
 
 /*****************************NAV BAR CSS****************/
