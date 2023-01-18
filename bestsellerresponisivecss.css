@@ -15,6 +15,11 @@ body
 
 
 }
+.section1top
+{
+  max-width:1300px ;
+  margin: auto;
+}
 
 /*****************************NAV BAR CSS****************/
 .logo
@@ -130,16 +135,10 @@ left: 0;
 }
 /*********************************************************/
 
-.topbackgroundimage
-{
-  width: 1300px;
-  margin: auto;
-  
-}
 #mosttopsection
 {
   background-image: url("images/topbackground.png"),url("images/darktopsection.png");
-  background-size: 2000rem 2000rem;
+  background-size: 100% 100%;
   background-repeat: no-repeat no-repeat;
 }
 
@@ -461,11 +460,17 @@ scale: 1 1;
 }
 /******************************************************/
 
+.pagewidth
+{
+  max-width: 1700px;
+  margin: auto ;
+}
+
 #aboutoutletssection
 {
-  background-image: url("images/AboutOutletsBackground.png");
-  background-size: 2000rem 2000rem;
+  background-image:url("images/AboutOutletsBackground.png");
   background-repeat: no-repeat no-repeat;
+  background-size: 100% 100%;
 }
 .aboutoutletsrow
 {
@@ -549,7 +554,7 @@ max-height: 100%;
 {
   display: flex;
   flex-direction: row;
-  background-color: black;
+
   justify-content: center;
 column-gap: 8%;
 color: white;
@@ -637,12 +642,7 @@ form
 }
 
 /********************************************************/
-#footersection
-{
-  background-image: url("images/footerbackground.png");
-  background-size: 2000rem 2000rem;
-  background-repeat: no-repeat no-repeat;
-}
+
 @media screen and (max-width:767px) 
 {
 
@@ -662,4 +662,10 @@ form
 justify-content: center;
 
   }
+}
+#footersection
+{
+  background-image:url("images/footerbackground.png") ;
+  background-repeat: no-repeat no-repeat;
+  background-size: 100% 100%;
 }
