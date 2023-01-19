@@ -29,16 +29,21 @@ body
   }
 }
 /*****************************NAV BAR CSS****************/
+.logo
+{
+  display: flex;
+  width: fit-content;
+}
 .logoimage
 {
-  scale: 83% 85%;
+  scale: 79% 73%; 
   transform:translateX(-23px)
 }
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+
 
 
 }
@@ -51,7 +56,7 @@ scale: 75% 75%;}
 .icons{
   display: flex;
   justify-content: space-between;
-  width: 100px;
+  width: fit-content;
   align-items: center;
 
 
@@ -59,6 +64,7 @@ scale: 75% 75%;}
 .nav-items {
   display: flex;
   list-style: none;
+  width: fit-content;
  
 
 
@@ -290,8 +296,8 @@ text-align: center;
 
   .imagesbestseller {
 width: 100%;
-    object-fit: cover;
-    height: 182px;
+ display: block;
+
   }
 
   .seller-text {
@@ -516,12 +522,11 @@ width: 50%;
 .outletsimage
 {
 
-object-fit: cover;
+
 width: 100%;
-height: 351.781px;
   display: block;
   max-height: auto;
-  min-height: 325.731px;
+
 
 }
 
@@ -535,15 +540,16 @@ font-family: Poppins-Bold;
   width: 50%;
   font-size: 15px;
   font-family: Poppins-Light;
-  text-align: left;
-  padding: 2.4rem;
   background-color: white;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 
 }
 .aboutoutletstext {
 font-size: 12px;
 line-height: 1.8;
-margin-block:5.6%;
+
 }
 
 
@@ -596,7 +602,7 @@ flex-wrap: wrap;
 
 /*********************************************************/
 .footerlogo{
-scale: 62% 62%; 
+scale: 79% 73%; 
 }
 .feelingsocialimages
 {
@@ -627,7 +633,7 @@ input {
 }
 .main-ul
 {
-  font-size: 11px;
+  font-size: 16px;
   font-family: 'Poppins', sans-serif;
   color: rgb(255, 255, 255);
   line-height:2.7;
@@ -668,7 +674,7 @@ form
 .lifooter
 {
   font-family: "Poppins-Light";
-  font-size: 9px;
+  font-size: 14px;
 }
 .bottom
 {
