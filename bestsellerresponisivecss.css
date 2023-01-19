@@ -21,7 +21,13 @@ body
   min-height: 100px;
   margin:auto 10%;
 }
-
+@media  only screen and (max-width: 767px) {
+  .section1top{
+    max-width:1300px ;
+    min-height: 100px;
+    margin:auto;
+  }
+}
 /*****************************NAV BAR CSS****************/
 .logoimage
 {
