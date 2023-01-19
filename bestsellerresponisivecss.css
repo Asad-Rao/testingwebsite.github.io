@@ -19,7 +19,7 @@ body
 {
   max-width:1300px ;
   min-height: 100px;
-  margin:auto 8%;
+  margin:auto 5%;
 }
 @media  only screen and (max-width: 767px) {
   .section1top{
@@ -71,7 +71,7 @@ scale: 75% 75%;}
 }
 
 .nav-items li {
-  margin: 0 15px;
+  margin: 0 10px;
   font-size: 13px;
 
   font-family: 'Poppins', sans-serif;
@@ -145,6 +145,10 @@ left: 0;
   {
     display: block;
     transition: 0.8s;
+   background-color:transparent;
+    position: absolute;
+    top: 100%;
+    left: 0;
   }
 
 
