@@ -343,7 +343,8 @@ padding-block-start: 8%;
   background-color: rgb(255, 255, 255);
   padding: 13px 27.297px;
   border-width: 2px;
-display: block;
+display: inline-block;
+width: fit-content;
 
 }
 #featuresection
@@ -512,7 +513,7 @@ scale: 1 1;
   width: 100%;
   margin: 2% auto;
   /* border: 1px solid black; */
-flex-wrap: wrap;  
+
 background-color: white;
 
 
@@ -548,11 +549,13 @@ font-family: Poppins-Bold;
   justify-content: center;
   display: flex;
   flex-direction: column;
+  padding: 4%;
 
 }
 .aboutoutletstext {
 font-size: 12px;
 line-height: 1.8;
+margin-block: 3%;
 
 }
 
@@ -570,6 +573,11 @@ margin: 0 auto;
 
 @media screen and (max-width:767px) 
 {
+
+
+  .aboutoutletsrow{
+    flex-wrap: wrap;
+  }
   .rightoutlets
 {
 
