@@ -596,12 +596,12 @@ flex-wrap: wrap;
 
 /*********************************************************/
 .footerlogo{
-scale: 100% 96%
+scale: 62% 62%; 
 }
 .feelingsocialimages
 {
-  scale:0.8 0.9;
-  transform:translateX(-27px)
+  scale: 62% 62%;
+  transform:translateX(-68px)
 }
 .footercolum1{width: fit-content;
 display: flex;
@@ -627,7 +627,7 @@ input {
 }
 .main-ul
 {
-  font-size: 14px;
+  font-size: 11px;
   font-family: 'Poppins', sans-serif;
   color: rgb(255, 255, 255);
   line-height:2.7;
@@ -668,7 +668,7 @@ form
 .lifooter
 {
   font-family: "Poppins-Light";
-  font-size: 12px;
+  font-size: 9px;
 }
 .bottom
 {
