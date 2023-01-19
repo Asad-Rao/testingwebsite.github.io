@@ -19,15 +19,9 @@ body
 {
   max-width:1300px ;
   min-height: 100px;
-  margin:auto 5%;
+  margin:auto 10%;
 }
-@media  only screen and (max-width: 767px) {
-  .section1top{
-    max-width:1300px ;
-    min-height: 100px;
-    margin:auto;
-  }
-}
+
 /*****************************NAV BAR CSS****************/
 .logo
 {
@@ -38,6 +32,15 @@ body
 {
   scale: 79% 73%; 
   transform:translateX(-23px)
+}
+
+
+@media screen and (max-width:767px)
+ 
+{ .logoimage{
+  scale: 79% 73%; 
+  transform:translateX(0)
+}
 }
 nav {
   display: flex;
@@ -80,7 +83,6 @@ scale: 75% 75%;}
 .nav-items li a {
 text-decoration: none;
 color: black;    
-
 
 }
 .container
@@ -144,7 +146,7 @@ left: 0;
   .show
   {
     display: block;
-    transition: 0.8s;
+    transition:0.8s;
    background-color:transparent;
     position: absolute;
     top: 100%;
