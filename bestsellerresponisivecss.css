@@ -23,7 +23,7 @@ body
 }
 
 /*****************************NAV BAR CSS****************/
-.logo
+.logoimage
 {
   scale: 100% 96%
 }
@@ -168,6 +168,7 @@ margin: 2% auto;
   font-family: Poppins-Light;
   width:50%;
   margin: auto 0;
+
 }
 
 .shopoutlets {
@@ -492,6 +493,7 @@ scale: 1 1;
   margin: 2% auto;
   border: 1px solid black;
 flex-wrap: wrap;  
+background-color: white;
 
 
 }
@@ -530,7 +532,7 @@ font-family: Poppins-SemiBold;
 .aboutoutletstext {
 font-size: 12px;
 line-height: 1.8;
-margin-block:3%;
+margin-block:3.6%;
 }
 
 
@@ -574,14 +576,16 @@ max-height: 100%;
 color: white;
 font-family: 'Poppins', sans-serif;
 flex-wrap: wrap;
-
 }
 
 /*********************************************************/
 .footerlogo{
 scale: 100% 96%
 }
-.footercolum1{width: fit-content}
+.footercolum1{width: fit-content;
+display: flex;
+align-items: center;
+}
 
 .footercolum2{width:fit-content;}
 
@@ -674,7 +678,7 @@ form
   {
     width:100% ;
     text-align: center;
-    margin: 2% 0;
+    justify-content: center;
   }
   .copyright,copyimage
   {
