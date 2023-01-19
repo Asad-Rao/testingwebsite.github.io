@@ -148,6 +148,7 @@ left: 0;
   background-image: url("images/darkshade.png"),url("images/topbackground.png");
   background-size: 100% 100%;
   background-repeat: no-repeat no-repeat;
+  padding-block: 2%;
 }
 
 .heading {
@@ -261,7 +262,7 @@ text-align: center;
     height: auto;
 
     flex-direction: row;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* justify-content: space-between; */
     width: 100%;
     flex-wrap: wrap;
@@ -275,7 +276,7 @@ text-align: center;
   .col-3 {
 
     width: 23%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 
 
@@ -357,10 +358,7 @@ display: block;
       width: 100%;
       text-align: center;
     }
-    .stars
-    {
-      width: 14%;
-    }
+
 
     .seller-text {
       white-space: wrap;
@@ -372,7 +370,7 @@ display: block;
 
     .sales {
       /* font-size: 2vh; */
-      display: inline-block;
+      display: block;
       font-family: 'Poppins', sans-serif;
     }
   }
@@ -385,7 +383,7 @@ display: block;
   max-width: 1300px;
   width: 100%;
   margin: 2% auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
 flex-wrap: wrap;  
 gap: 4.505%;
@@ -498,7 +496,7 @@ scale: 1 1;
 
   width: 100%;
   margin: 2% auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 flex-wrap: wrap;  
 background-color: white;
 
@@ -523,7 +521,7 @@ height: 346.297px;
 
 .aboutoutletswelcome {
 font-size: 15px;
-font-family: Poppins-SemiBold;
+font-family: Poppins-Bold;
 
 }
 .col-text
@@ -593,6 +591,11 @@ flex-wrap: wrap;
 /*********************************************************/
 .footerlogo{
 scale: 100% 96%
+}
+.feelingsocialimages
+{
+  scale:0.8 0.9;
+  transform:translateX(-27px)
 }
 .footercolum1{width: fit-content;
 display: flex;
