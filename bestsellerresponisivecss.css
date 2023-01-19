@@ -563,8 +563,13 @@ max-height: 100%;
 }
 .col-text
 {
-  padding-block: 0.5%;
+text-align: center;
   width: 100%;
+
+}
+.READMORE
+{
+  margin: auto;
 }
 }
 /****************************************************/
