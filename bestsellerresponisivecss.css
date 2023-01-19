@@ -59,7 +59,7 @@ scale: 75% 75%;}
 .nav-items {
   display: flex;
   list-style: none;
-  margin-right:6.7%;
+ 
 
 
 }
@@ -719,4 +719,3 @@ justify-content: center;
   background-size: 100% 100%;
   padding-block-start: 3.5%;
 }
-
