@@ -732,6 +732,10 @@ padding-block: 1%;
 justify-content: center;
 
   }
+  .feelingsocialimages
+{
+  transform:translateX(0px)
+}
 }
 #footersection
 {
