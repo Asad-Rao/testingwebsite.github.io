@@ -136,7 +136,7 @@ margin: 6px 0;
     line-height: 2;
     position: absolute;
     top: 75px;
-    background-color:#f0f0f0;
+    background-color:#efefef;
   }
 
   .nav-items li {
@@ -761,5 +761,3 @@ justify-content: center;
   margin:auto 10%;
 }
 }
-
-
