@@ -27,6 +27,7 @@ body
 {
   display: flex;
   width: fit-content;
+  cursor: pointer;
 }
 .logoimage
 {
@@ -61,18 +62,18 @@ scale: 75% 75%;}
   justify-content: space-between;
   width: fit-content;
   align-items: center;
-
-
-}
-.nav-items {
-  display: flex;
-  list-style: none;
-  width: fit-content;
-
- 
-
+  cursor: pointer;
 
 }
+
+  .nav-items {
+    display: flex;
+    list-style: none;
+    width: fit-content;
+    cursor: pointer;
+  }
+
+
 
 .nav-items li {
   margin: 0 10px;
@@ -137,6 +138,10 @@ margin: 6px 0;
     top: 75px;
     background-color:#ededed;
   }
+  /* .displayblock
+  {
+    display: inline-block;
+  } */
   .nav-items li {
     margin: 0;}
   .container
@@ -145,7 +150,6 @@ display: block;
 position: absolute;
 top: 35px;
 left: 0;
-
   }
   /* .show
   {
@@ -238,6 +242,7 @@ margin: 3.5% 0;
   padding: 2.5% 4%;
   color: rgb(255, 255, 255);
   background-color: rgb(255, 0, 0);
+  cursor: pointer;
 
 
   border: 1px solid rgb(255, 0, 0);
@@ -352,7 +357,7 @@ padding-block-start: 8%;
   border-width: 2px;
 display: inline-block;
 width: fit-content;
-
+cursor: pointer;
 }
 #featuresection
 {
@@ -454,7 +459,7 @@ height: 100%;
   margin-block-start: 2%;
   outline-style: none;
   border-width: 1px;
-
+  cursor: pointer;
 }
 
 
@@ -576,6 +581,7 @@ margin-block: 3%;
   padding: 1% 2.1%;
 display: block;
 margin: 0 auto;
+cursor: pointer;
 }
 
 @media screen and (max-width:767px) 
@@ -622,11 +628,13 @@ flex-wrap: wrap;
 /*********************************************************/
 .footerlogo{
 scale: 79% 73%; 
+cursor: pointer;
 }
 .feelingsocialimages
 {
   scale: 62% 62%;
-  transform:translateX(-68px)
+  transform:translateX(-68px);
+  cursor:pointer;
 }
 .footercolum1{width: fit-content;
 display: flex;
@@ -649,6 +657,7 @@ input {
 .subscribe {
   font-size: 12px;
   font-family: "Poppins-SemiBold";
+  cursor: pointer;
 }
 .main-ul
 {
@@ -656,12 +665,14 @@ input {
   font-family: 'Poppins', sans-serif;
   color: rgb(255, 255, 255);
   line-height:2.7;
+  cursor: pointer;
 }
 
 .ulfooter
 {
   list-style: none;
   line-height: 1.7;
+  cursor: pointer;
 }
 .anchor-footer {
   text-decoration-line: none;
@@ -710,6 +721,7 @@ padding-block: 1%;
 {
   width: fit-content;
   scale: 70% 70%;
+  cursor: pointer;
 }
 .copyright
 {
@@ -757,4 +769,5 @@ justify-content: center;
   margin:auto 10%;
 }
 }
+
 
