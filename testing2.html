@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,8 +16,8 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jsslidedownhamburgermeneu.js"></script>
 </head>
 
 <body>
@@ -24,7 +25,7 @@
         <section id="mosttopsection">
             <div class="section1top">
                 <nav>
-                    <div class="container" onclick="myFunction(this)">
+                    <div class="container">
                         <div class="bar1"></div>
                         <div class="bar2"></div>
                         <div class="bar3"></div>
@@ -34,7 +35,7 @@
                         <img src="images/logo.png" alt="Logo" class="logoimage">
                     </div>
 
-                    <ul class="nav-items" id="nav-items">
+                    <ul class="nav-items">
                         <li><a href="#">HOME</a></li>
                         <li><a href="#">CATALOG</a></li>
                         <li><a href="#">CONTACT</a></li>
@@ -298,14 +299,7 @@
 
         </section>
     </div>
-    <script>
 
-        function myFunction(x) {
-            x.classList.toggle("change");
-            document.getElementById("nav-items").classList.toggle("show");
-        }
-    </script>
 </body>
 
 </html>
-
