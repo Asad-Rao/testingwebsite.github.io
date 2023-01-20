@@ -136,7 +136,7 @@ margin: 6px 0;
     line-height: 2;
     position: absolute;
     top: 75px;
-    /* background-color:#ededed; */
+    background-color:#f0f0f0;
   }
 
   .nav-items li {
@@ -148,12 +148,11 @@ position: absolute;
 top: 35px;
 left: 0;
   }
-  .displayblock
+  /* .displayblock
   {
-opacity: 0;
-transition: 0.8s;
-    
-  }
+   opacity :0;  
+transition: 1s;
+  } */
 
 
 }
