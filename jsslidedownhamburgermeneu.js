@@ -3,7 +3,7 @@ $(document).ready(function(){
         $(".shopoutlets").toggleClass("displayblock");
         $(".quality").toggleClass("displayblock");
         $(".cheapproducts").toggleClass("displayblock");
-      $(".nav-items").slideToggle("slow");
+      $(".nav-items").slideToggle(1000);
       $(".bar1").toggleClass("change1");
   $(".bar2").toggleClass("change2");
   $(".bar3").toggleClass("change3");
