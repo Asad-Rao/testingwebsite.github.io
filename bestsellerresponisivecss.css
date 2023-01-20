@@ -31,7 +31,7 @@ body
 .logoimage
 {
   scale: 79% 73%; 
-  transform:translateX(-23px)
+  transform:translateX(-32px)
 }
 
 
@@ -68,6 +68,7 @@ scale: 75% 75%;}
   display: flex;
   list-style: none;
   width: fit-content;
+
  
 
 
@@ -97,13 +98,13 @@ color: black;
   transition: 0.4s;
 }
 
-.change .bar1 {
+.change1 {
   transform: translate(0, 11px) rotate(-45deg);
 }
 
-.change .bar2 {opacity: 0;}
+.change2 {opacity: 0;}
 
-.change .bar3 {
+.change3 {
   transform: translate(0, -11px) rotate(45deg);
 }
 
@@ -132,18 +133,21 @@ margin: 6px 0;
     display: none;
     width: 100%;
     line-height: 2;
+    position: absolute;
+    top: 75px;
+    background-color:#ededed;
   }
   .nav-items li {
     margin: 0;}
   .container
   {
-    display: block;
+display: block;
 position: absolute;
 top: 35px;
 left: 0;
 
   }
-  .show
+  /* .show
   {
     display: block;
     transition:0.8s;
@@ -151,8 +155,8 @@ left: 0;
     position: absolute;
     top: 100%;
     left: 0;
-    background-color:#ededed;
-  }
+    
+  } */
 
 
 }
