@@ -52,7 +52,12 @@ nav {
 
 }
 .iconsimages {
-scale: 75% 75%;}
+scale: 75% 75%;
+}
+.iconsimages
+{
+  margin-inline:5px;
+}
 .hamburger-menu
 {
   display: none;
@@ -126,7 +131,7 @@ height: auto; */
   {
 position: absolute;
 right: 0;
-top: 38px;
+
 margin: 6px 0;
 scale: 75% 75%;
   }
@@ -137,7 +142,7 @@ scale: 75% 75%;
     position: absolute;
     top: 75px;
     background-color:#efefef;
-    padding-block:15%;
+    padding-block:47.3%;
   }
 
   .nav-items li {
@@ -147,15 +152,14 @@ scale: 75% 75%;
   {
 display: block;
 position: absolute;
-top: 38px;
 left: 0;
 scale: 50% 50%;
   }
   .bar1, .bar2, .bar3 {
     width: 30px;
-    height: 4px;
+    height: 5px;
     background-color: #333;
-    margin: 4px 0;
+    margin: 6px 0;
     transition: 0.4s;
   }
   .displayblock
