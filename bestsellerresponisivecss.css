@@ -126,7 +126,7 @@ height: auto;
   {
 position: absolute;
 right: 0;
-top: 35px;
+top: 38px;
 margin: 6px 0;
   }
   .nav-items
@@ -136,7 +136,7 @@ margin: 6px 0;
     position: absolute;
     top: 75px;
     background-color:#efefef;
-    padding-block:25%;
+    padding-block:20%;
   }
 
   .nav-items li {
@@ -146,7 +146,7 @@ margin: 6px 0;
   {
 display: block;
 position: absolute;
-top: 35px;
+top: 38px;
 left: 0;
 scale: 50% 50%;
   }
