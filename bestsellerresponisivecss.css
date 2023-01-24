@@ -226,7 +226,7 @@ width: 100%;
 justify-content: space-between;
 flex-wrap: wrap;
 margin: 2% auto;
-margin-block:10%;
+
 }
 
 .column1  {
@@ -417,8 +417,8 @@ cursor: pointer;
       width: 100%;
       text-align: center;
     }
-
-
+    .rowtopsection{
+    margin-block:10%;}
     .seller-text {
       white-space: wrap;
 
@@ -787,6 +787,7 @@ max-width:1300px;
 padding: 0 10%;
   margin: auto;
 
+
 }
 @media only screen and (max-width: 767px)
 {
@@ -803,5 +804,4 @@ padding: 0 30px;
   padding:0;
     margin: auto;
 }
-
 }
