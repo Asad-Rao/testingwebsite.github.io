@@ -37,7 +37,7 @@ body
 }
 .iconsimages
 {
-  max-width: 18%;
+  max-width: 25%;
 }
 
 
@@ -96,13 +96,13 @@ color: black;
 }
 
 .change1 {
-  transform: translate(0, 9px) rotate(-45deg);
+  transform: translate(0, 8px) rotate(-45deg);
 }
 
 .change2 {opacity: 0;}
 
 .change3 {
-  transform: translate(0, -9px) rotate(45deg);
+  transform: translate(0, -8px) rotate(45deg);
 }
 
 
@@ -118,7 +118,10 @@ color: black;
   display: flex;
   align-items: center;
   }
-  
+  .iconsimages
+{
+  max-width: 20%;
+}
 
   
 .navbarclass
@@ -174,7 +177,7 @@ left: 20px;
   }
   .bar1, .bar3 {
     width: 30px;
-    height: 3px;
+    height: 2px;
     background-color: #333;
     margin: 6px 0;
     transition: 0.4s;
@@ -182,7 +185,7 @@ left: 20px;
   .bar2
   {
     width: 15px;
-    height: 3px;
+    height: 2px;
     background-color: #333;
     margin: 6px 0;
     transition: 0.4s;
@@ -807,6 +810,6 @@ padding: 0 30px;
 {
   max-width:1300px;
   padding:0;
-    margin: auto;
+  margin: auto;
 }
 }
