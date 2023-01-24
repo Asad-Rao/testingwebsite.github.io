@@ -120,7 +120,7 @@ color: black;
   }
   .iconsimages
 {
-  max-width: 20%;
+  max-width: 22%;
 }
 
   
@@ -134,7 +134,8 @@ color: black;
   justify-content: center;
   margin: auto;
 }
-.logoimage ,  .footerlogo
+.logoimage 
+
 {
   max-width: 60%;
 }
@@ -279,8 +280,6 @@ margin: 3.5% 0;
   color: rgb(255, 255, 255);
   background-color: rgb(255, 0, 0);
   cursor: pointer;
-
-
   border: 1px solid rgb(255, 0, 0);
 
 }
@@ -811,5 +810,4 @@ padding: 0 30px;
   max-width:1300px;
   padding:0;
   margin: auto;
-}
-}
+}}
