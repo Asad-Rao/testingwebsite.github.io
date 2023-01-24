@@ -111,7 +111,10 @@ color: black;
 
 
 @media screen and (max-width:767px) {
-nav
+
+
+  
+  nav
 {
   background-color:#efefef;
 position:fixed;
@@ -765,6 +768,13 @@ justify-content: center;
   background-size: 100% 100%;
   padding-block-start: 3.5%;
 }
+.navsection
+{
+  max-width:1300px;
+padding: 0 10%;
+  margin: auto;
+
+}
 @media only screen and (max-width: 767px)
 {
   .section1top
@@ -774,4 +784,16 @@ padding: 0 30px;
   margin: auto;
 
 }
+.navsection
+{
+  max-width:1300px;
+  padding:0;
+    margin: auto;
+}
+
+
+
+
+
+
 }
