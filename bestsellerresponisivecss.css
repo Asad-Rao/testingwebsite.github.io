@@ -97,17 +97,22 @@ color: black;
 }
 
 .change1 {
-  transform: translate(0, 10px) rotate(-45deg);
+  transform: translate(0, 9px) rotate(-45deg);
 }
 
 .change2 {opacity: 0;}
 
 .change3 {
-  transform: translate(0, -10px) rotate(45deg);
+  transform: translate(0, -9px) rotate(45deg);
 }
 
 
 @media screen and (max-width:767px) {
+  nav
+  {
+    display: flex;
+    justify-content: space-between;
+  }
   #nav-id
   {
     
@@ -160,8 +165,8 @@ height: 100vh;
   }
   .container
   {
-display: block;
-left: 0;
+display: inline-block;
+
 
   }
   .bar1, .bar3 {
