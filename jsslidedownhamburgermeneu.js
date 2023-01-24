@@ -3,6 +3,7 @@ $(document).ready(function(){
         $(".shopoutlets").toggleClass("displayblock");
         $(".quality").toggleClass("displayblock");
         $(".cheapproducts").toggleClass("displayblock");
+        $(".cheapandeasy").toggleClass("displayblock");
       $(".nav-items").slideToggle(500);
       $(".bar1").toggleClass("change1");
   $(".bar2").toggleClass("change2");
