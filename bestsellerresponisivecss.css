@@ -422,7 +422,7 @@ cursor: pointer;
       text-align: center;
     }
     .rowtopsection{
-    margin-block:10%;}
+    margin-block:20%;}
     .seller-text {
       white-space: wrap;
 
@@ -810,5 +810,6 @@ padding: 0 30px;
   max-width:1300px;
   padding:0;
   margin: auto;
-}}
+}
 
+}
