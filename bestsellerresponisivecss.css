@@ -19,7 +19,7 @@ body
 {
   max-width:1300px ;
   margin:auto;
-  padding: 0 10%;
+  padding: 0 30px;
 }
 
 /*****************************NAV BAR CSS****************/
@@ -113,13 +113,15 @@ color: black;
  
   #nav-id
   {
-    padding-block: 2%;
+    padding-block: 0 10px;
     position:fixed;
     top: 0;
   width: 100%;
   z-index: 1;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  /* min-height: 120px; */
   }
   .iconsimages
 {
@@ -133,7 +135,7 @@ color: black;
 
 }
 .logo{
-
+display: flex;
   justify-content: center;
   margin: auto;
 }
@@ -149,23 +151,22 @@ color: black;
 display: flex;
 justify-content: space-between;
 /* margin: 6px 0; */
-position: absolute;
-right: 20px;
-
+padding-inline-end: 25px;
   }
   .nav-items
   {
     display: none;
     width: 100%;
     position: absolute;
-    top: 58px;
-height: 100vh;
-overflow: scroll;
-/* position: absolute;
-left: 20px; */
-padding-inline-start:20px;
+    top: 41px;
+    bottom:0;
+    height: 100vh;
 
-  }
+}
+#nav-id,.nav-items
+{
+  background-color: #ffffff;
+}
 
   .nav-items li {
     margin: 0;
@@ -177,8 +178,7 @@ padding-inline-start:20px;
   .container
   {
 display: inline-block;
-position: absolute;
-left: 20px;
+padding-inline-start: 25px;
   }
   .bar1, .bar3 {
     width: 30px;
@@ -201,7 +201,9 @@ left: 20px;
 transition:opacity 0.8s;
 transition-property: opacity;
   }
-
+  .nav-items li{
+    padding-left: 25px;
+  }
 
 }
 /*********************************************************/
@@ -575,9 +577,6 @@ width: 50%;
 
 width: 100%;
   display: block;
-  max-height: auto;
-
-
 }
 
 .aboutoutletswelcome {
@@ -795,7 +794,7 @@ justify-content: center;
 .navsection
 {
 max-width:1300px;
-padding: 0 10%;
+padding: 0 30px;
   margin: auto;
 
 
@@ -815,5 +814,4 @@ padding: 0 30px;
   padding:0;
   margin: auto;
 }
-
 }
