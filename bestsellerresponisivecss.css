@@ -47,16 +47,14 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-
-
 }
+
 .iconsimages {
 scale: 75% 75%;
 }
-.iconsimages
+.middleicons
 {
-  margin-inline:5px;
+  margin-inline:8px;
 }
 .hamburger-menu
 {
@@ -105,13 +103,13 @@ color: black;
 }
 
 .change1 {
-  transform: translate(0, 8px) rotate(-45deg);
+  transform: translate(0, 10px) rotate(-45deg);
 }
 
 .change2 {opacity: 0;}
 
 .change3 {
-  transform: translate(0, -8px) rotate(45deg);
+  transform: translate(0, -10px) rotate(45deg);
 }
 
 
@@ -142,12 +140,15 @@ scale: 75% 75%;
     position: absolute;
     top: 75px;
     background-color:#efefef;
-height: 946%;
+/* height: 380vh; */
   }
 
   .nav-items li {
     margin: 0;
-    padding-block:2%}
+    /* padding-block:11.2% */
+    font-size: 2.5rem;
+    padding: 3rem 0;
+  }
   .container
   {
 display: block;
