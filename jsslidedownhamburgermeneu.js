@@ -9,7 +9,7 @@ $(document).ready(function(){
   $(".bar3").toggleClass("change3");
     })});
     $(window).scroll(function(){
-      if ($(this).scrollTop() > 20) {
+      if ($(this).scrollTop() > 10) {
          $('#nav-id').addClass('navbarclass');
          $('#nav-items').addClass('navbarclass');
       }
