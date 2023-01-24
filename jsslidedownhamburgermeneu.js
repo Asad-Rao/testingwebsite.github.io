@@ -19,3 +19,4 @@ $(document).ready(function(){
           $('#nav-items').removeClass('navbarclass');
        }
   });
+  
