@@ -140,7 +140,8 @@ scale: 75% 75%;
     position: absolute;
     top: 75px;
     background-color:#efefef;
-/* height: 380vh; */
+min-height: 490vh;
+max-height: 530vh;
   }
 
   .nav-items li {
