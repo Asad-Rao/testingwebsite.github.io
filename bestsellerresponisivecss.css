@@ -49,10 +49,7 @@ nav {
   align-items: center;
 }
 
-.middleicons
-{
-  margin-inline:8px;
-}
+
 .hamburger-menu
 {
   display: none;
@@ -137,10 +134,11 @@ color: black;
 }
  .icons
   {
-position: absolute;
-right: 0;
-
-margin: 6px 0;
+/* position: absolute; */
+/* right: 0; */
+display: flex;
+justify-content: space-between;
+/* margin: 6px 0; */
 
   }
   .nav-items
