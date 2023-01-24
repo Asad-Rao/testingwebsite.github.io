@@ -226,6 +226,7 @@ width: 100%;
 justify-content: space-between;
 flex-wrap: wrap;
 margin: 2% auto;
+margin-block:10%;
 }
 
 .column1  {
