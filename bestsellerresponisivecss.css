@@ -28,6 +28,7 @@ body
   display: flex;
   width: fit-content;
   cursor: pointer;
+
 }
 
 .logoimage
@@ -130,8 +131,8 @@ color: black;
 
 }
 .logo{
-  margin: 0 auto;
 
+  justify-content: center;
 }
 .logoimage
 {
@@ -781,7 +782,7 @@ justify-content: center;
 }
 .navsection
 {
-  max-width:1300px;
+max-width:1300px;
 padding: 0 10%;
   margin: auto;
 
@@ -800,5 +801,4 @@ padding: 0 30px;
   max-width:1300px;
   padding:0;
     margin: auto;
-}
-}
+}}
