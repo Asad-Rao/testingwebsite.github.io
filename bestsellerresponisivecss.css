@@ -18,8 +18,8 @@ body
 .section1top
 {
   max-width:1300px ;
-
-  margin:auto 10%;
+  margin:auto;
+  padding: 0 10%;
 }
 
 /*****************************NAV BAR CSS****************/
@@ -29,19 +29,19 @@ body
   width: fit-content;
   cursor: pointer;
 }
+
 .logoimage
 {
-  scale: 79% 73%; 
-  transform:translateX(-32px)
+  max-width: 70%;
 }
-
+.iconsimages
+{
+  max-width: 18%;
+}
 
 @media screen and (max-width:767px)
  
-{ .logoimage{
-  scale: 79% 73%; 
-  transform:translateX(0)
-}
+{ 
 }
 nav {
   display: flex;
@@ -49,12 +49,9 @@ nav {
   align-items: center;
 }
 
-.iconsimages {
-scale: 75% 75%;
-}
 .middleicons
 {
-  margin-inline:10px;
+  margin-inline:8px;
 }
 .hamburger-menu
 {
@@ -122,13 +119,17 @@ position:fixed;
 justify-content: center;
 height: auto; */
 top: 0;
-width: 80%;
+width: 100%;
 z-index: 1;
 /* overflow: hidden; */
 }
 .logo{
   margin: 0 auto;
-  scale:70% 70%;
+
+}
+.logoimage
+{
+  max-width: 60%;
 }
  .icons
   {
@@ -136,7 +137,7 @@ position: absolute;
 right: 0;
 
 margin: 6px 0;
-scale: 75% 75%;
+
   }
   .nav-items
   {
@@ -159,9 +160,8 @@ height: 100vh;
   .container
   {
 display: block;
-position: absolute;
 left: 0;
-scale: 50% 50%;
+
   }
   .bar1, .bar2, .bar3 {
     width: 30px;
@@ -291,10 +291,7 @@ text-align: center;
 
 
   }
-  .rowtopsection
-  {
-    margin: 15% auto;
-  }
+
 
 }
 
@@ -508,7 +505,7 @@ height: 100%;
     right: 83.4765px; */
   }
   .featureimage {
-scale: 1 1;
+
     display: block;
   }
 
@@ -639,13 +636,14 @@ flex-wrap: wrap;
 
 /*********************************************************/
 .footerlogo{
-scale: 79% 73%; 
+
 cursor: pointer;
+max-width: 70%;
 }
 .feelingsocialimages
 {
-  scale: 62% 62%;
-  transform:translateX(-68px);
+max-width: 50%;
+
   cursor:pointer;
 }
 .footercolum1{width: fit-content;
@@ -730,8 +728,7 @@ padding-block: 1%;
 }
 .copyimage
 {
-  width: fit-content;
-  scale: 70% 70%;
+  max-width: 18%;
   cursor: pointer;
 }
 .copyright
@@ -759,10 +756,7 @@ padding-block: 1%;
 justify-content: center;
 
   }
-  .feelingsocialimages
-{
-  transform:translateX(0px)
-}
+
 }
 #footersection
 {
@@ -775,7 +769,9 @@ justify-content: center;
 {
   .section1top
 {
-  max-width:1300px ;
+  max-width:1300px;
+padding: 0 30px;
+  margin: auto;
 
 }
 
