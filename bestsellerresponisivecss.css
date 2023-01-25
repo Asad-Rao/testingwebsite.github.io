@@ -8,10 +8,10 @@
 body
 {
 
-    margin: 0;
-    padding: 0;
-    max-width: auto;
-    margin: 0 auto;
+ margin: 0;
+padding: 0;
+  max-width: auto;
+margin: 0 auto;
 }
 .section1top
 {
@@ -232,7 +232,7 @@ flex-direction: row;
 width: 100%;
 justify-content: space-between;
 flex-wrap: wrap;
-margin: 2% auto;
+/* margin: 2% auto; */
 
 }
 
@@ -402,6 +402,10 @@ cursor: pointer;
 {  margin: 4% auto;
 
 }
+
+
+
+
   @media  screen and  (max-width:767px) {
     
     .col-3 {
@@ -422,7 +426,7 @@ cursor: pointer;
       text-align: center;
     }
     .rowtopsection{
-    margin-block:20%;}
+    padding-block: 100px;}
     .seller-text {
       white-space: wrap;
 
@@ -808,12 +812,6 @@ padding: 0 30px;
   padding:0;
   margin: auto;
 }
-
-
-
-
-
-
 }
 
 
@@ -856,8 +854,61 @@ justify-content: space-around;
 padding-block: 80px;}
 
 /******************CATALOG CSS****************************/
-#bestsellersection
-{
- padding-block: 90px;
 }
+/******************CATALOG CSS****************************/
+
+@media screen and (max-width: 767px)
+{#bestsellersectionpadding
+{
+  margin-block:20%;
+}}
+
+
+
+
+
+
+
+/***********************CONTACT US CSS*********************/
+.middleform
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.middelcontactsection
+{
+ padding: 60px 0;
+}
+
+input[type=text1]{
+  width: 34%;
+  padding: 12px 16px;
+  margin: 10px 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+#textarea{
+  width: 69.6%;
+margin-block: 10px;
+}
+@media screen and (max-width: 767px) {
+  input[type=text1],#textarea{
+   min-width: 70%;
+  }
+   .middelcontactsection
+{
+  margin-block: 20%;
+}
+}
+.submit
+{
+
+  color: rgb(255, 255, 255);
+  font-family:Poppins-Light;
+  background-color: rgb(0, 0, 0);
+  padding: 0.7% 6.5%;
+cursor: pointer;
+display: block;
+margin: auto;
 }
