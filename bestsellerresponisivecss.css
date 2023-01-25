@@ -158,12 +158,12 @@ padding-inline-end: 25px;
     display: none;
     width: 100%;
     position: absolute;
-    top: 41px;
+    top: 43px;
     bottom:0;
     height: 100vh;
 
 }
-#nav-id,.nav-items
+.nav-items,#nav-id
 {
   background-color: #ffffff;
 }
