@@ -12,8 +12,6 @@ body
     padding: 0;
     max-width: auto;
     margin: 0 auto;
-
-
 }
 .section1top
 {
@@ -46,7 +44,10 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-
+#nav-id
+{
+  padding-block: 30px;
+}
 
 .hamburger-menu
 {
@@ -193,7 +194,7 @@ padding-inline-start: 25px;
   .displayblock
   {
    opacity :0;  
-transition:opacity 0.8s;
+transition:opacity 2s;
 transition-property: opacity;
   }
   .nav-items li{
@@ -217,7 +218,6 @@ transition-property: opacity;
 .heading {
   text-transform: uppercase;
   font-size: 20px;
-  max-width: 100%;
   margin: 0 auto;
   text-align: center;
   font-family: Poppins-SemiBold;
@@ -296,8 +296,7 @@ margin: 3.5% 0;
 
 .child {
 width: 100%;
-
-
+display: block;
 }
 @media only screen and  (max-width: 767px) {
   .column1{
@@ -790,10 +789,10 @@ justify-content: center;
 {
 max-width:1300px;
 padding: 0 30px;
-  margin: auto;
-
-
+margin: auto;
 }
+
+
 @media only screen and (max-width: 767px)
 {
   .section1top
@@ -809,4 +808,72 @@ padding: 0 30px;
   padding:0;
   margin: auto;
 }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************TRACK MY ORDER CSS************************************/
+.trackmyordermiddle
+{
+  
+display: flex;
+flex-direction: column;
+text-align: center;
+padding-block: 60px;
+justify-content: space-around;
+}
+
+.trackmyordertext
+{
+  font-family: Poppins-Light;
+  font-size: 13px;
+  color: black;
+}
+.toptrackmyordertext
+{
+  margin-block: 2%;
+}
+.toptrackmyorderlink
+{
+  color: black;
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+ .trackmyordermiddle
+{
+  
+padding-block: 80px;}
 }
