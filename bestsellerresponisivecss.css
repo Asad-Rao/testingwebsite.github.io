@@ -106,7 +106,7 @@ color: black;
 }
 .middleicon
 {
-  margin-inline: 12px;
+  margin-inline: 6px;
 }
 
 @media screen and (max-width:767px) {
@@ -146,11 +146,7 @@ display: flex;
 }
  .icons
   {
-/* position: absolute; */
-/* right: 0; */
 display: flex;
-justify-content: space-between;
-/* margin: 6px 0; */
 padding-inline-end: 25px;
   }
   .nav-items
@@ -813,5 +809,4 @@ padding: 0 30px;
   max-width:1300px;
   padding:0;
   margin: auto;
-}
-}
+}}
