@@ -15,22 +15,39 @@ body
 
 
 }
+.section1top
+{
+  max-width:1300px ;
+  margin:auto;
+  padding: 0 30px;
+}
 
 /*****************************NAV BAR CSS****************/
 .logo
 {
-  scale: 100% 96%
+  display: flex;
+  width: fit-content;
+  cursor: pointer;
+
 }
+
+.logoimage 
+{
+  max-width: 70%;
+}
+.iconsimages
+{
+  max-width: 16%;
+}
+
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-
-
 }
-.iconsimages {
-scale: 75% 75%;}
+
+
 .hamburger-menu
 {
   display: none;
@@ -38,17 +55,20 @@ scale: 75% 75%;}
 .icons{
   display: flex;
   justify-content: space-between;
-  width: 100px;
+  width: fit-content;
   align-items: center;
-
-
-}
-.nav-items {
-  display: flex;
-  list-style: none;
-
+  cursor: pointer;
 
 }
+
+  .nav-items {
+    display: flex;
+    list-style: none;
+    width: fit-content;
+    cursor: pointer;
+  }
+
+
 
 .nav-items li {
   margin: 0 10px;
@@ -65,82 +85,133 @@ color: black;
 .container
 {
   display: none;
+  
 }
 .bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
+  width: 20px;
+  height: 1px;
   background-color: #333;
   margin: 6px 0;
   transition: 0.4s;
 }
 
-.change .bar1 {
-  transform: translate(0, 11px) rotate(-45deg);
+.change1 {
+  transform: translate(0, 8px) rotate(-45deg);
 }
 
-.change .bar2 {opacity: 0;}
+.change2 {opacity: 0;}
 
-.change .bar3 {
-  transform: translate(0, -11px) rotate(45deg);
+.change3 {
+  transform: translate(0, -8px) rotate(45deg);
 }
-
+.middleicon
+{
+  margin-inline: 6px;
+}
 
 @media screen and (max-width:767px) {
-nav
+ 
+  #nav-id
+  {
+    padding-block:15px;
+    position:fixed;
+    top: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  }
+  .iconsimages
 {
-position:relative;
-display: flex;
-justify-content: center;
-height: auto;
+  max-width: 17%;
+}
+
+  
+.navbarclass
+{
+  background-color:#ffffff;
+
 }
 .logo{
-  margin: 0 auto;
- 
+display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.logoimage 
+
+{
+  max-width: 60%;
 }
  .icons
   {
-position: absolute;
-right: 0;
-top: 35px;
-margin: 6px 0;
+display: flex;
+padding-inline-end: 25px;
   }
   .nav-items
   {
     display: none;
-    text-align: left;
-    float: left;
     width: 100%;
-    line-height: 2;
+    position: absolute;
+    top: 58px;
+    bottom:0;
+    height: 100vh;
+
+}
+.nav-items,#nav-id
+{
+  background-color: #ffffff;
+}
+
+  .nav-items li {
+    margin: 0;
+    /* padding-block:11.2% */
+    font-size: 12px;
+    padding: 10px 0;
+  /* margin: 0 2rem; */
   }
   .container
   {
-    display: block;
-position: absolute;
-top: 35px;
-left: 0;
-
+display: inline-block;
+padding-inline-start: 25px;
   }
-  .show
+  .bar1, .bar3 {
+    width: 20px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  .bar2
   {
-    display: block;
-    transition: 0.8s;
+    width: 15px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
   }
-
+  .displayblock
+  {
+   opacity :0;  
+transition:opacity 0.8s;
+transition-property: opacity;
+  }
+  .nav-items li{
+    padding-left: 25px;
+  }
 
 }
 /*********************************************************/
 
-.topbackgroundimage
+#backgroundtopsection
 {
-  width: 1300px;
-  margin: auto;
-  
-}
-#mosttopsection
-{
-  background-image: url("images/topbackground.png"),url("images/darktopsection.png");
-  background-size: 2000rem 2000rem;
+  background-image: url("images/darkshade.png"),url("images/topbackground.png");
+  background-size: 100% 100%;
   background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  padding-block-end: 2%;
+  padding-block-start: 1%;
+  
 }
 
 .heading {
@@ -162,12 +233,14 @@ width: 100%;
 justify-content: space-between;
 flex-wrap: wrap;
 margin: 2% auto;
+
 }
 
 .column1  {
   font-family: Poppins-Light;
   width:50%;
   margin: auto 0;
+
 }
 
 .shopoutlets {
@@ -179,7 +252,7 @@ margin: 2% auto;
 }
 
 .quality {
-  font-size: 27px;
+  font-size: 21px;
 font-weight: 100;
   font-family: Poppins-Light;
 }
@@ -189,7 +262,7 @@ font-weight: 100;
 .cheapproducts {
   font-size: 45px ;
   font-family: Poppins-ExtraBold;
-  line-height: 0.98;
+
 }
 
 .cheapandeasy {
@@ -207,8 +280,7 @@ margin: 3.5% 0;
   padding: 2.5% 4%;
   color: rgb(255, 255, 255);
   background-color: rgb(255, 0, 0);
-
-
+  cursor: pointer;
   border: 1px solid rgb(255, 0, 0);
 
 }
@@ -253,7 +325,7 @@ text-align: center;
     height: auto;
 
     flex-direction: row;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* justify-content: space-between; */
     width: 100%;
     flex-wrap: wrap;
@@ -267,7 +339,7 @@ text-align: center;
   .col-3 {
 
     width: 23%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 
 
@@ -276,8 +348,8 @@ text-align: center;
 
   .imagesbestseller {
 width: 100%;
-    object-fit: cover;
-    height: 182px;
+ display: block;
+
   }
 
   .seller-text {
@@ -317,13 +389,21 @@ padding-block-start: 8%;
   color: rgb(0, 0, 0);
   font-family:Poppins-Light;
   background-color: rgb(255, 255, 255);
-  padding: 1% 2.1%;
-display: block;
+  padding: 13px 27.297px;
+  border-width: 2px;
+display: inline-block;
+width: fit-content;
+cursor: pointer;
+}
+#featuresection
+{
+  margin: 4% auto;
+}
+#bestsellersection
+{  margin: 4% auto;
 
 }
-
-
-  @media only screen and (min-width:320px) and (max-width:767px) {
+  @media  screen and  (max-width:767px) {
     
     .col-3 {
 
@@ -342,11 +422,8 @@ display: block;
       width: 100%;
       text-align: center;
     }
-    .stars
-    {
-      width: 14%;
-    }
-
+    .rowtopsection{
+    margin-block:20%;}
     .seller-text {
       white-space: wrap;
 
@@ -357,7 +434,7 @@ display: block;
 
     .sales {
       /* font-size: 2vh; */
-      display: inline-block;
+      display: block;
       font-family: 'Poppins', sans-serif;
     }
   }
@@ -366,12 +443,8 @@ display: block;
 .rowfeature {
   display: flex;
   flex-direction: row;
-  /* width of whole row is 1300px */
-  max-width: 1300px;
   width: 100%;
   margin: 2% auto;
-  border: 1px solid black;
-
 flex-wrap: wrap;  
 gap: 4.505%;
 }
@@ -379,9 +452,7 @@ gap: 4.505%;
 .col-4 {
   width: 30.33%;
   border: 1px solid black;
-
   position: relative;
-
 }
 
 .text-button {
@@ -395,7 +466,8 @@ gap: 4.505%;
 }
 .featureimage {
   width: 100%;
-
+object-fit: cover;
+height: 100%;
   display: block;
 }
 .card-text {
@@ -417,11 +489,11 @@ gap: 4.505%;
   margin-block-start: 2%;
   outline-style: none;
   border-width: 1px;
-
+  cursor: pointer;
 }
 
 
-@media only screen and (min-width:320px) and (max-width:767px) {
+@media  screen and (max-width:767px) {
 
   .col-4 {
     width: 100%;
@@ -454,18 +526,26 @@ gap: 4.505%;
     right: 83.4765px; */
   }
   .featureimage {
-scale: 1 1;
+
     display: block;
   }
 
 }
 /******************************************************/
 
+.pagewidth
+{
+  max-width: 1700px;
+  margin: auto ;
+}
+
 #aboutoutletssection
 {
-  background-image: url("images/AboutOutletsBackground.png");
-  background-size: 2000rem 2000rem;
+  background-image:url("images/AboutOutletsBackground.png");
   background-repeat: no-repeat no-repeat;
+  background-size: 100% 100%;
+  padding-block: 4%;
+
 }
 .aboutoutletsrow
 {
@@ -474,42 +554,48 @@ scale: 1 1;
 
   width: 100%;
   margin: 2% auto;
-  border: 1px solid black;
-flex-wrap: wrap;  
-margin: 2% auto;
+  /* border: 1px solid black; */
+
+background-color: white;
+
 
 }
 
-.col-6
+.rightoutlets
 {
 width: 50%;
-min-height: 447.906px;
-
 }
+
 .outletsimage
 {
 
-  width: 100%;
-  max-height: 100%;
-  min-height: 100%;
-  display: block;
 
+width: 100%;
+  display: block;
 }
 
 .aboutoutletswelcome {
 font-size: 15px;
-font-family: Poppins-SemiBold;
+font-family: Poppins-Bold;
 
 }
 .col-text
 {
+  width: 50%;
   font-size: 15px;
   font-family: Poppins-Light;
-  text-align: left;
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 4%;
 
 }
 .aboutoutletstext {
 font-size: 12px;
+line-height: 1.8;
+margin-block: 3%;
+
 }
 
 
@@ -522,11 +608,17 @@ font-size: 12px;
   padding: 1% 2.1%;
 display: block;
 margin: 0 auto;
+cursor: pointer;
 }
 
 @media screen and (max-width:767px) 
 {
-  .col-6
+
+
+  .aboutoutletsrow{
+    flex-wrap: wrap;
+  }
+  .rightoutlets
 {
 
   width: 100%;
@@ -539,9 +631,16 @@ max-height: 100%;
 }
 .col-text
 {
-  padding-block: 0.5%;
+text-align: center;
   width: 100%;
+
 }
+.READMORE
+{
+  margin: auto;
+}
+
+
 }
 /****************************************************/
 
@@ -549,52 +648,64 @@ max-height: 100%;
 {
   display: flex;
   flex-direction: row;
-  background-color: black;
-  justify-content: center;
-column-gap: 8%;
+  justify-content: space-around;
 color: white;
 font-family: 'Poppins', sans-serif;
 flex-wrap: wrap;
-padding-block-start: 3%;
-padding-block-end: 3%;
 }
 
 /*********************************************************/
 .footerlogo{
-scale: 100% 96%
+
+cursor: pointer;
+max-width: 70%;
 }
-/* .footercolum1{width: 20%}
+.feelingsocialimages
+{
+max-width: 50%;
 
-.footercolum2{width: 25%;}
+  cursor:pointer;
+}
+.footercolum1{width: fit-content;
+display: flex;
+align-items: center;
+}
 
-.footercolum3{width: 10%;}
+.footercolum2{width:fit-content;}
 
-.footercolum4{width: 10%} */
+.footercolum3{width: fit-content;}
+
+.footercolum4{width: fit-content}
 
 input {
   size: "25";
+  text-align: left;
+  font-size: 7px;
+
 
 }
 .subscribe {
-  font-size: 15px;
+  font-size: 12px;
   font-family: "Poppins-SemiBold";
+  cursor: pointer;
 }
 .main-ul
 {
-  font-size: 17px;
+  font-size: 16px;
   font-family: 'Poppins', sans-serif;
   color: rgb(255, 255, 255);
   line-height:2.7;
+  cursor: pointer;
 }
 
 .ulfooter
 {
   list-style: none;
   line-height: 1.7;
+  cursor: pointer;
 }
 .anchor-footer {
   text-decoration-line: none;
-
   color: rgb(199, 199, 199);
 }
 
@@ -611,8 +722,8 @@ input {
 }
 input[type=text] {
 
-  padding: 11px 0px;
-
+  padding: 9px 0px;
+border-radius: 0;
   box-sizing: border-box;
 }
 form
@@ -622,27 +733,30 @@ form
 .lifooter
 {
   font-family: "Poppins-Light";
+  font-size: 14px;
 }
 .bottom
 {
   font-family: "Poppins-Light";
-  font-size: 15px;
+  font-size: 13px;
   color: rgb(199, 199, 199);
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  column-gap: 44.6%;
   align-items: center;
- padding-block: 1%;
+  justify-content: space-between;
+padding-block: 1%;
 }
-
-/********************************************************/
-#footersection
+.copyimage
 {
-  background-image: url("images/footerbackground.png");
-  background-size: 2000rem 2000rem;
-  background-repeat: no-repeat no-repeat;
+  max-width: 18%;
+  cursor: pointer;
 }
+.copyright
+{
+  width: fit-content;
+}
+/********************************************************/
+
 @media screen and (max-width:767px) 
 {
 
@@ -650,7 +764,7 @@ form
   {
     width:100% ;
     text-align: center;
-    margin: 2% 0;
+    justify-content: center;
   }
   .copyright,copyimage
   {
@@ -662,4 +776,37 @@ form
 justify-content: center;
 
   }
+  
+
+}
+#footersection
+{
+  background-image:url("images/footerbackground.png") ;
+  background-repeat: no-repeat no-repeat;
+  background-size: 100% 100%;
+  padding-block-start: 3.5%;
+}
+.navsection
+{
+max-width:1300px;
+padding: 0 30px;
+  margin: auto;
+
+
+}
+@media only screen and (max-width: 767px)
+{
+  .section1top
+{
+  max-width:1300px;
+padding: 0 30px;
+  margin: auto;
+
+}
+.navsection
+{
+  max-width:1300px;
+  padding:0;
+  margin: auto;
+}
 }
