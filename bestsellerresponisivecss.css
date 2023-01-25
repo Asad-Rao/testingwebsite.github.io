@@ -821,30 +821,6 @@ padding: 0 30px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /***************************TRACK MY ORDER CSS************************************/
 .trackmyordermiddle
 {
@@ -872,8 +848,16 @@ justify-content: space-around;
   text-decoration: none;
 }
 @media screen and (max-width: 767px) {
+
+/***********************TRACK MY ORDER CSS******************/  
  .trackmyordermiddle
 {
   
 padding-block: 80px;}
+
+/******************CATALOG CSS****************************/
+#bestsellersection
+{
+ padding-block: 90px;
+}
 }
